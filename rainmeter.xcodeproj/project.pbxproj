@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE20D4792C116BF500A088DA /* rainmeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4782C116BF500A088DA /* rainmeterApp.swift */; };
+		EE20D47B2C116BF500A088DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D47A2C116BF500A088DA /* ContentView.swift */; };
+		EE20D47D2C116BF800A088DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE20D47C2C116BF800A088DA /* Assets.xcassets */; };
+		EE20D4802C116BF800A088DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE20D47F2C116BF800A088DA /* Preview Assets.xcassets */; };
+		EE20D48B2C116BF800A088DA /* rainmeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D48A2C116BF800A088DA /* rainmeterTests.swift */; };
+		EE20D4952C116BF900A088DA /* rainmeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4942C116BF900A088DA /* rainmeterUITests.swift */; };
+		EE20D4972C116BF900A088DA /* rainmeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4962C116BF900A088DA /* rainmeterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE20D4872C116BF800A088DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE20D46D2C116BF500A088DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE20D4742C116BF500A088DA;
+			remoteInfo = rainmeter;
+		};
+		EE20D4912C116BF800A088DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE20D46D2C116BF500A088DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE20D4742C116BF500A088DA;
+			remoteInfo = rainmeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE20D4752C116BF500A088DA /* rainmeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainmeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE20D4782C116BF500A088DA /* rainmeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainmeterApp.swift; sourceTree = "<group>"; };
+		EE20D47A2C116BF500A088DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE20D47C2C116BF800A088DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE20D47F2C116BF800A088DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE20D4812C116BF800A088DA /* rainmeter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rainmeter.entitlements; sourceTree = "<group>"; };
+		EE20D4862C116BF800A088DA /* rainmeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rainmeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE20D48A2C116BF800A088DA /* rainmeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainmeterTests.swift; sourceTree = "<group>"; };
+		EE20D4902C116BF800A088DA /* rainmeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rainmeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE20D4942C116BF900A088DA /* rainmeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainmeterUITests.swift; sourceTree = "<group>"; };
+		EE20D4962C116BF900A088DA /* rainmeterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainmeterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE20D4722C116BF500A088DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE20D4832C116BF800A088DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE20D48D2C116BF800A088DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE20D46C2C116BF500A088DA = {
+			isa = PBXGroup;
+			children = (
+				EE20D4772C116BF500A088DA /* rainmeter */,
+				EE20D4892C116BF800A088DA /* rainmeterTests */,
+				EE20D4932C116BF900A088DA /* rainmeterUITests */,
+				EE20D4762C116BF500A088DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE20D4762C116BF500A088DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE20D4752C116BF500A088DA /* rainmeter.app */,
+				EE20D4862C116BF800A088DA /* rainmeterTests.xctest */,
+				EE20D4902C116BF800A088DA /* rainmeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE20D4772C116BF500A088DA /* rainmeter */ = {
+			isa = PBXGroup;
+			children = (
+				EE20D4782C116BF500A088DA /* rainmeterApp.swift */,
+				EE20D47A2C116BF500A088DA /* ContentView.swift */,
+				EE20D47C2C116BF800A088DA /* Assets.xcassets */,
+				EE20D4812C116BF800A088DA /* rainmeter.entitlements */,
+				EE20D47E2C116BF800A088DA /* Preview Content */,
+			);
+			path = rainmeter;
+			sourceTree = "<group>";
+		};
+		EE20D47E2C116BF800A088DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE20D47F2C116BF800A088DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE20D4892C116BF800A088DA /* rainmeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE20D48A2C116BF800A088DA /* rainmeterTests.swift */,
+			);
+			path = rainmeterTests;
+			sourceTree = "<group>";
+		};
+		EE20D4932C116BF900A088DA /* rainmeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE20D4942C116BF900A088DA /* rainmeterUITests.swift */,
+				EE20D4962C116BF900A088DA /* rainmeterUITestsLaunchTests.swift */,
+			);
+			path = rainmeterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE20D4742C116BF500A088DA /* rainmeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE20D49A2C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeter" */;
+			buildPhases = (
+				EE20D4712C116BF500A088DA /* Sources */,
+				EE20D4722C116BF500A088DA /* Frameworks */,
+				EE20D4732C116BF500A088DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rainmeter;
+			productName = rainmeter;
+			productReference = EE20D4752C116BF500A088DA /* rainmeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE20D4852C116BF800A088DA /* rainmeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE20D49D2C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeterTests" */;
+			buildPhases = (
+				EE20D4822C116BF800A088DA /* Sources */,
+				EE20D4832C116BF800A088DA /* Frameworks */,
+				EE20D4842C116BF800A088DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE20D4882C116BF800A088DA /* PBXTargetDependency */,
+			);
+			name = rainmeterTests;
+			productName = rainmeterTests;
+			productReference = EE20D4862C116BF800A088DA /* rainmeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE20D48F2C116BF800A088DA /* rainmeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE20D4A02C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeterUITests" */;
+			buildPhases = (
+				EE20D48C2C116BF800A088DA /* Sources */,
+				EE20D48D2C116BF800A088DA /* Frameworks */,
+				EE20D48E2C116BF800A088DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE20D4922C116BF800A088DA /* PBXTargetDependency */,
+			);
+			name = rainmeterUITests;
+			productName = rainmeterUITests;
+			productReference = EE20D4902C116BF800A088DA /* rainmeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE20D46D2C116BF500A088DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE20D4742C116BF500A088DA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EE20D4852C116BF800A088DA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EE20D4742C116BF500A088DA;
+					};
+					EE20D48F2C116BF800A088DA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EE20D4742C116BF500A088DA;
+					};
+				};
+			};
+			buildConfigurationList = EE20D4702C116BF500A088DA /* Build configuration list for PBXProject "rainmeter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE20D46C2C116BF500A088DA;
+			productRefGroup = EE20D4762C116BF500A088DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE20D4742C116BF500A088DA /* rainmeter */,
+				EE20D4852C116BF800A088DA /* rainmeterTests */,
+				EE20D48F2C116BF800A088DA /* rainmeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE20D4732C116BF500A088DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE20D4802C116BF800A088DA /* Preview Assets.xcassets in Resources */,
+				EE20D47D2C116BF800A088DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE20D4842C116BF800A088DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE20D48E2C116BF800A088DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE20D4712C116BF500A088DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE20D47B2C116BF500A088DA /* ContentView.swift in Sources */,
+				EE20D4792C116BF500A088DA /* rainmeterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE20D4822C116BF800A088DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE20D48B2C116BF800A088DA /* rainmeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE20D48C2C116BF800A088DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE20D4972C116BF900A088DA /* rainmeterUITestsLaunchTests.swift in Sources */,
+				EE20D4952C116BF900A088DA /* rainmeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE20D4882C116BF800A088DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE20D4742C116BF500A088DA /* rainmeter */;
+			targetProxy = EE20D4872C116BF800A088DA /* PBXContainerItemProxy */;
+		};
+		EE20D4922C116BF800A088DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE20D4742C116BF500A088DA /* rainmeter */;
+			targetProxy = EE20D4912C116BF800A088DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE20D4982C116BF900A088DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE20D4992C116BF900A088DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EE20D49B2C116BF900A088DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rainmeter/rainmeter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rainmeter/Preview Content\"";
+				DEVELOPMENT_TEAM = W62P39PJ3J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kynsonszetau.rainmeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE20D49C2C116BF900A088DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rainmeter/rainmeter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rainmeter/Preview Content\"";
+				DEVELOPMENT_TEAM = W62P39PJ3J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kynsonszetau.rainmeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EE20D49E2C116BF900A088DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W62P39PJ3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kynsonszetau.rainmeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rainmeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rainmeter";
+			};
+			name = Debug;
+		};
+		EE20D49F2C116BF900A088DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W62P39PJ3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kynsonszetau.rainmeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rainmeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rainmeter";
+			};
+			name = Release;
+		};
+		EE20D4A12C116BF900A088DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W62P39PJ3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kynsonszetau.rainmeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = rainmeter;
+			};
+			name = Debug;
+		};
+		EE20D4A22C116BF900A088DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W62P39PJ3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kynsonszetau.rainmeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = rainmeter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE20D4702C116BF500A088DA /* Build configuration list for PBXProject "rainmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE20D4982C116BF900A088DA /* Debug */,
+				EE20D4992C116BF900A088DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE20D49A2C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE20D49B2C116BF900A088DA /* Debug */,
+				EE20D49C2C116BF900A088DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE20D49D2C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE20D49E2C116BF900A088DA /* Debug */,
+				EE20D49F2C116BF900A088DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE20D4A02C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE20D4A12C116BF900A088DA /* Debug */,
+				EE20D4A22C116BF900A088DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE20D46D2C116BF500A088DA /* Project object */;
+}
