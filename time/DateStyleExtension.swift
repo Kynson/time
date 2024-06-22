@@ -1,6 +1,6 @@
 //
 //  DateStyleExtension.swift
-//  rainmeter
+//  time
 //
 //  Created by Kynson Szetau on 12/6/2024.
 //

@@ -1,6 +1,6 @@
 //
 //  HorizontalAlignmentExtension.swift
-//  rainmeter
+//  time
 //
 //  Created by Kynson Szetau on 13/6/2024.
 //

@@ -1,6 +1,6 @@
 //
 //  Preferences.swift
-//  rainmeter
+//  time
 //
 //  Created by Kynson Szetau on 8/6/2024.
 //

@@ -10,13 +10,13 @@
 		EE1E602D2C199F37001AF743 /* DateStyleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E602C2C199F37001AF743 /* DateStyleExtension.swift */; };
 		EE1E602F2C19A8F5001AF743 /* TimeStyleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E602E2C19A8F5001AF743 /* TimeStyleExtension.swift */; };
 		EE1E60312C1B3529001AF743 /* HorizontalAlignmentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E60302C1B3529001AF743 /* HorizontalAlignmentExtension.swift */; };
-		EE20D4792C116BF500A088DA /* rainmeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4782C116BF500A088DA /* rainmeterApp.swift */; };
+		EE20D4792C116BF500A088DA /* timeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4782C116BF500A088DA /* timeApp.swift */; };
 		EE20D47B2C116BF500A088DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D47A2C116BF500A088DA /* ContentView.swift */; };
 		EE20D47D2C116BF800A088DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE20D47C2C116BF800A088DA /* Assets.xcassets */; };
 		EE20D4802C116BF800A088DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE20D47F2C116BF800A088DA /* Preview Assets.xcassets */; };
-		EE20D48B2C116BF800A088DA /* rainmeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D48A2C116BF800A088DA /* rainmeterTests.swift */; };
-		EE20D4952C116BF900A088DA /* rainmeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4942C116BF900A088DA /* rainmeterUITests.swift */; };
-		EE20D4972C116BF900A088DA /* rainmeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4962C116BF900A088DA /* rainmeterUITestsLaunchTests.swift */; };
+		EE20D48B2C116BF800A088DA /* timeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D48A2C116BF800A088DA /* timeTests.swift */; };
+		EE20D4952C116BF900A088DA /* timeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4942C116BF900A088DA /* timeUITests.swift */; };
+		EE20D4972C116BF900A088DA /* timeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D4962C116BF900A088DA /* timeUITestsLaunchTests.swift */; };
 		EE86631F2C12D9070061A361 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86631E2C12D9070061A361 /* PreferencesView.swift */; };
 		EE8663252C149D920061A361 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8663242C149D920061A361 /* ColorExtension.swift */; };
 		EE8663272C188F820061A361 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8663262C188F810061A361 /* Preferences.swift */; };
@@ -43,17 +43,19 @@
 		EE1E602C2C199F37001AF743 /* DateStyleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStyleExtension.swift; sourceTree = "<group>"; };
 		EE1E602E2C19A8F5001AF743 /* TimeStyleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStyleExtension.swift; sourceTree = "<group>"; };
 		EE1E60302C1B3529001AF743 /* HorizontalAlignmentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalAlignmentExtension.swift; sourceTree = "<group>"; };
-		EE20D4752C116BF500A088DA /* rainmeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainmeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE20D4782C116BF500A088DA /* rainmeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainmeterApp.swift; sourceTree = "<group>"; };
+		EE20D4752C116BF500A088DA /* time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = time.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE20D4782C116BF500A088DA /* timeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeApp.swift; sourceTree = "<group>"; };
 		EE20D47A2C116BF500A088DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE20D47C2C116BF800A088DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE20D47F2C116BF800A088DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE20D4812C116BF800A088DA /* rainmeter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rainmeter.entitlements; sourceTree = "<group>"; };
-		EE20D4862C116BF800A088DA /* rainmeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rainmeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE20D48A2C116BF800A088DA /* rainmeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainmeterTests.swift; sourceTree = "<group>"; };
-		EE20D4902C116BF800A088DA /* rainmeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rainmeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE20D4942C116BF900A088DA /* rainmeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainmeterUITests.swift; sourceTree = "<group>"; };
-		EE20D4962C116BF900A088DA /* rainmeterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainmeterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE20D4812C116BF800A088DA /* time.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = time.entitlements; sourceTree = "<group>"; };
+		EE20D4862C116BF800A088DA /* timeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE20D48A2C116BF800A088DA /* timeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeTests.swift; sourceTree = "<group>"; };
+		EE20D4902C116BF800A088DA /* timeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE20D4942C116BF900A088DA /* timeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeUITests.swift; sourceTree = "<group>"; };
+		EE20D4962C116BF900A088DA /* timeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE53CCD82C26BCFA009D6409 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE53CCD92C26CFD7009D6409 /* showcase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = showcase.png; path = ../../Desktop/showcase.png; sourceTree = "<group>"; };
 		EE86631E2C12D9070061A361 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		EE8663242C149D920061A361 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		EE8663262C188F810061A361 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
@@ -87,9 +89,11 @@
 		EE20D46C2C116BF500A088DA = {
 			isa = PBXGroup;
 			children = (
-				EE20D4772C116BF500A088DA /* rainmeter */,
-				EE20D4892C116BF800A088DA /* rainmeterTests */,
-				EE20D4932C116BF900A088DA /* rainmeterUITests */,
+				EE53CCD82C26BCFA009D6409 /* README.md */,
+				EE53CCD92C26CFD7009D6409 /* showcase.png */,
+				EE20D4772C116BF500A088DA /* time */,
+				EE20D4892C116BF800A088DA /* timeTests */,
+				EE20D4932C116BF900A088DA /* timeUITests */,
 				EE20D4762C116BF500A088DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,21 +101,21 @@
 		EE20D4762C116BF500A088DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE20D4752C116BF500A088DA /* rainmeter.app */,
-				EE20D4862C116BF800A088DA /* rainmeterTests.xctest */,
-				EE20D4902C116BF800A088DA /* rainmeterUITests.xctest */,
+				EE20D4752C116BF500A088DA /* time.app */,
+				EE20D4862C116BF800A088DA /* timeTests.xctest */,
+				EE20D4902C116BF800A088DA /* timeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE20D4772C116BF500A088DA /* rainmeter */ = {
+		EE20D4772C116BF500A088DA /* time */ = {
 			isa = PBXGroup;
 			children = (
 				EE1E60302C1B3529001AF743 /* HorizontalAlignmentExtension.swift */,
-				EE20D4782C116BF500A088DA /* rainmeterApp.swift */,
+				EE20D4782C116BF500A088DA /* timeApp.swift */,
 				EE20D47A2C116BF500A088DA /* ContentView.swift */,
 				EE20D47C2C116BF800A088DA /* Assets.xcassets */,
-				EE20D4812C116BF800A088DA /* rainmeter.entitlements */,
+				EE20D4812C116BF800A088DA /* time.entitlements */,
 				EE20D47E2C116BF800A088DA /* Preview Content */,
 				EE86631E2C12D9070061A361 /* PreferencesView.swift */,
 				EE8663242C149D920061A361 /* ColorExtension.swift */,
@@ -119,7 +123,7 @@
 				EE1E602C2C199F37001AF743 /* DateStyleExtension.swift */,
 				EE1E602E2C19A8F5001AF743 /* TimeStyleExtension.swift */,
 			);
-			path = rainmeter;
+			path = time;
 			sourceTree = "<group>";
 		};
 		EE20D47E2C116BF800A088DA /* Preview Content */ = {
@@ -130,29 +134,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		EE20D4892C116BF800A088DA /* rainmeterTests */ = {
+		EE20D4892C116BF800A088DA /* timeTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE20D48A2C116BF800A088DA /* rainmeterTests.swift */,
+				EE20D48A2C116BF800A088DA /* timeTests.swift */,
 			);
-			path = rainmeterTests;
+			path = timeTests;
 			sourceTree = "<group>";
 		};
-		EE20D4932C116BF900A088DA /* rainmeterUITests */ = {
+		EE20D4932C116BF900A088DA /* timeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EE20D4942C116BF900A088DA /* rainmeterUITests.swift */,
-				EE20D4962C116BF900A088DA /* rainmeterUITestsLaunchTests.swift */,
+				EE20D4942C116BF900A088DA /* timeUITests.swift */,
+				EE20D4962C116BF900A088DA /* timeUITestsLaunchTests.swift */,
 			);
-			path = rainmeterUITests;
+			path = timeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE20D4742C116BF500A088DA /* rainmeter */ = {
+		EE20D4742C116BF500A088DA /* time */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE20D49A2C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeter" */;
+			buildConfigurationList = EE20D49A2C116BF900A088DA /* Build configuration list for PBXNativeTarget "time" */;
 			buildPhases = (
 				EE20D4712C116BF500A088DA /* Sources */,
 				EE20D4722C116BF500A088DA /* Frameworks */,
@@ -162,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = rainmeter;
+			name = time;
 			productName = rainmeter;
-			productReference = EE20D4752C116BF500A088DA /* rainmeter.app */;
+			productReference = EE20D4752C116BF500A088DA /* time.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EE20D4852C116BF800A088DA /* rainmeterTests */ = {
+		EE20D4852C116BF800A088DA /* timeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE20D49D2C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeterTests" */;
+			buildConfigurationList = EE20D49D2C116BF900A088DA /* Build configuration list for PBXNativeTarget "timeTests" */;
 			buildPhases = (
 				EE20D4822C116BF800A088DA /* Sources */,
 				EE20D4832C116BF800A088DA /* Frameworks */,
@@ -180,14 +184,14 @@
 			dependencies = (
 				EE20D4882C116BF800A088DA /* PBXTargetDependency */,
 			);
-			name = rainmeterTests;
+			name = timeTests;
 			productName = rainmeterTests;
-			productReference = EE20D4862C116BF800A088DA /* rainmeterTests.xctest */;
+			productReference = EE20D4862C116BF800A088DA /* timeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EE20D48F2C116BF800A088DA /* rainmeterUITests */ = {
+		EE20D48F2C116BF800A088DA /* timeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE20D4A02C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeterUITests" */;
+			buildConfigurationList = EE20D4A02C116BF900A088DA /* Build configuration list for PBXNativeTarget "timeUITests" */;
 			buildPhases = (
 				EE20D48C2C116BF800A088DA /* Sources */,
 				EE20D48D2C116BF800A088DA /* Frameworks */,
@@ -198,9 +202,9 @@
 			dependencies = (
 				EE20D4922C116BF800A088DA /* PBXTargetDependency */,
 			);
-			name = rainmeterUITests;
+			name = timeUITests;
 			productName = rainmeterUITests;
-			productReference = EE20D4902C116BF800A088DA /* rainmeterUITests.xctest */;
+			productReference = EE20D4902C116BF800A088DA /* timeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE20D4702C116BF500A088DA /* Build configuration list for PBXProject "rainmeter" */;
+			buildConfigurationList = EE20D4702C116BF500A088DA /* Build configuration list for PBXProject "time" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE20D4742C116BF500A088DA /* rainmeter */,
-				EE20D4852C116BF800A088DA /* rainmeterTests */,
-				EE20D48F2C116BF800A088DA /* rainmeterUITests */,
+				EE20D4742C116BF500A088DA /* time */,
+				EE20D4852C116BF800A088DA /* timeTests */,
+				EE20D48F2C116BF800A088DA /* timeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +287,7 @@
 				EE1E602D2C199F37001AF743 /* DateStyleExtension.swift in Sources */,
 				EE8663252C149D920061A361 /* ColorExtension.swift in Sources */,
 				EE1E602F2C19A8F5001AF743 /* TimeStyleExtension.swift in Sources */,
-				EE20D4792C116BF500A088DA /* rainmeterApp.swift in Sources */,
+				EE20D4792C116BF500A088DA /* timeApp.swift in Sources */,
 				EE1E60312C1B3529001AF743 /* HorizontalAlignmentExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE20D48B2C116BF800A088DA /* rainmeterTests.swift in Sources */,
+				EE20D48B2C116BF800A088DA /* timeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE20D4972C116BF900A088DA /* rainmeterUITestsLaunchTests.swift in Sources */,
-				EE20D4952C116BF900A088DA /* rainmeterUITests.swift in Sources */,
+				EE20D4972C116BF900A088DA /* timeUITestsLaunchTests.swift in Sources */,
+				EE20D4952C116BF900A088DA /* timeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,12 +314,12 @@
 /* Begin PBXTargetDependency section */
 		EE20D4882C116BF800A088DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE20D4742C116BF500A088DA /* rainmeter */;
+			target = EE20D4742C116BF500A088DA /* time */;
 			targetProxy = EE20D4872C116BF800A088DA /* PBXContainerItemProxy */;
 		};
 		EE20D4922C116BF800A088DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE20D4742C116BF500A088DA /* rainmeter */;
+			target = EE20D4742C116BF500A088DA /* time */;
 			targetProxy = EE20D4912C116BF800A088DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,11 +448,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = rainmeter/rainmeter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = time/time.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"rainmeter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"time/Preview Content\"";
 				DEVELOPMENT_TEAM = W62P39PJ3J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -472,11 +476,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = rainmeter/rainmeter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = time/time.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"rainmeter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"time/Preview Content\"";
 				DEVELOPMENT_TEAM = W62P39PJ3J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -510,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rainmeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rainmeter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/time.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/time";
 			};
 			name = Debug;
 		};
@@ -529,7 +533,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rainmeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rainmeter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/time.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/time";
 			};
 			name = Release;
 		};
@@ -570,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE20D4702C116BF500A088DA /* Build configuration list for PBXProject "rainmeter" */ = {
+		EE20D4702C116BF500A088DA /* Build configuration list for PBXProject "time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE20D4982C116BF900A088DA /* Debug */,
@@ -579,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE20D49A2C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeter" */ = {
+		EE20D49A2C116BF900A088DA /* Build configuration list for PBXNativeTarget "time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE20D49B2C116BF900A088DA /* Debug */,
@@ -588,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE20D49D2C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeterTests" */ = {
+		EE20D49D2C116BF900A088DA /* Build configuration list for PBXNativeTarget "timeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE20D49E2C116BF900A088DA /* Debug */,
@@ -597,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE20D4A02C116BF900A088DA /* Build configuration list for PBXNativeTarget "rainmeterUITests" */ = {
+		EE20D4A02C116BF900A088DA /* Build configuration list for PBXNativeTarget "timeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE20D4A12C116BF900A088DA /* Debug */,

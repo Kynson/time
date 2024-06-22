@@ -1,14 +1,14 @@
 //
-//  rainmeterTests.swift
-//  rainmeterTests
+//  timeTests.swift
+//  timeTests
 //
 //  Created by Kynson Szetau on 6/6/2024.
 //
 
 import XCTest
-@testable import rainmeter
+@testable import time
 
-final class rainmeterTests: XCTestCase {
+final class timeTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

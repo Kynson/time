@@ -1,6 +1,6 @@
 //
 //  Preferences.swift
-//  rainmeter
+//  time
 //
 //  Created by Kynson Szetau on 11/6/2024.
 //
@@ -14,8 +14,8 @@ let decoder = JSONDecoder()
 
 class Preferences: ObservableObject {
     @AppStorage("text-alignment") var textAlignment = HorizontalAlignment.center
-    @AppStorage("x-position") var xPosition = 20.0
-    @AppStorage("y-position") var yPosition = 20.0
+    @AppStorage("x-position") var xPosition = 400.0
+    @AppStorage("y-position") var yPosition = 200.0
     
     @AppStorage("day-of-week-font-family") var dayOfWeekFontFamily = "Futura-Medium"
     @AppStorage("day-of-week-font-size") var dayOfWeekFontSize = 36.0

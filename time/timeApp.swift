@@ -1,6 +1,6 @@
 //
-//  rainmeterApp.swift
-//  rainmeter
+//  timeApp.swift
+//  time
 //
 //  Created by Kynson Szetau on 6/6/2024.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct rainmeterApp: App {
+struct timeApp: App {
     @Environment(\.openWindow) private var openWindow
     
     var body: some Scene {
@@ -21,8 +21,8 @@ struct rainmeterApp: App {
         Window("Preferences", id: "preferences") {
             PreferencesView()
         }
-        .defaultSize(width: 600, height: 800)
-        MenuBarExtra("Rainmeter Menu", systemImage: "a.circle") {
+        .defaultSize(width: 800, height: 550)
+        MenuBarExtra("Time Menu", image: "MenuBarIcon") {
             VStack {
                 Button("Preferences...") {
                     openWindow(id: "preferences")

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  rainmeter
+//  time
 //
 //  Created by Kynson Szetau on 6/6/2024.
 //

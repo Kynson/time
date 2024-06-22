@@ -1,13 +1,13 @@
 //
-//  rainmeterUITestsLaunchTests.swift
-//  rainmeterUITests
+//  timeUITestsLaunchTests.swift
+//  timeUITests
 //
 //  Created by Kynson Szetau on 6/6/2024.
 //
 
 import XCTest
 
-final class rainmeterUITestsLaunchTests: XCTestCase {
+final class timeUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
